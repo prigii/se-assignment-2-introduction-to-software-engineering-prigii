@@ -18,6 +18,28 @@ Traditional programming is centred around programming and coding while software 
 ## Software Development Life Cycle (SDLC):
 
 ### Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.
+
+The Software Development Life Cycle (SDLC) consists of several sequential phases, each essential for guiding the development and maintenance of software systems from inception to deployment and beyond.
+
+Requirements Gathering and Analysis: The first phase of the SDLC involves gathering and analyzing requirements from stakeholders, users, and other relevant sources. This phase aims to understand and document what the software should accomplish. Requirements are classified into functional (features the system must provide) and non-functional (quality attributes like performance and usability). The output of this phase is a detailed requirements specification document that serves as a blueprint for the entire project.
+
+System Design: Following requirements analysis, the system design phase focuses on defining the architecture of the software. This includes designing the overall structure of the system, defining data models, specifying interfaces between system components, and selecting appropriate technologies and platforms. System design ensures that the software meets the specified requirements and can be implemented efficiently.
+
+Implementation (Coding): The implementation phase involves translating the design specifications into actual code. Developers write code based on the design documents using programming languages like Python, Java, C++, etc. This phase organizes the code into modules or components, ensuring that each part of the system functions as intended and integrates smoothly with other components.
+
+Testing: Once the code is developed, it undergoes rigorous testing to identify defects and ensure that it meets the specified requirements. Testing is conducted at multiple levels:
+- Unit Testing: Tests individual components or modules to verify their correctness.
+- Integration Testing: Tests how the modules work together as a group.
+- System Testing: Tests the entire system as a whole to ensure it meets the software requirements.
+- Acceptance Testing: Tests conducted with end-users to determine if the software meets their expectations and is ready for deployment.
+
+Deployment: After successful testing, the software is deployed to the production environment. This phase involves installing the software on target hardware, configuring it according to deployment plans, and preparing user documentation and training materials. Data migration, if necessary, is also part of this phase to ensure that existing data is transferred to the new system correctly.
+
+Maintenance: The final phase of the SDLC involves maintaining and enhancing the software to ensure it continues to meet the evolving needs of users and stakeholders. Maintenance includes fixing bugs, making enhancements to improve performance or add new features, and addressing issues that arise in the operational environment. This phase ensures the longevity and effectiveness of the software over its lifecycle.
+
+Throughout the SDLC, supporting processes such as project management, configuration management, and documentation management run parallel to the main phases. These processes help ensure that the project is managed effectively, changes are tracked, and documentation is produced and maintained as needed.
+
+In conclusion, the SDLC provides a structured approach to software development, guiding teams through a series of well-defined phases from requirements gathering to deployment and maintenance. Each phase contributes to the overall goal of delivering high-quality software that meets user needs and business objectives, while also ensuring that the software can be effectively maintained and supported throughout its lifecycle.
 ### Agile vs. Waterfall Models:                                                                                                                                                                               
 ### Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?                                                 
 
